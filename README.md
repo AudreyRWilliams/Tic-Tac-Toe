@@ -19,8 +19,8 @@ Explanation of Key Sections<br>
 let [count, setCount] = useState(0);<br>
 let [lock, setLock] = useState(false);<br>
 - count keeps track of number of turns (used to switch between X and O).<br>
-- lock disables further moves after a win.<br>
-2. Refs for DOM Access<br>
+- lock disables further moves after a win.<br><br>
+2. <b>Refs for DOM Access</b><br>
 let titleRef = useRef(null);<br>
 let box1 = useRef(null);<br>
 ...
