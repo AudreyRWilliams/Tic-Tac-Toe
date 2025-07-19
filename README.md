@@ -32,6 +32,6 @@ Game Flow<br>
 
 
 - Every time a box is clicked, it adds either X or O based on count.<br>
-- Updates the data array to keep track of who played where. <br><br>
-<b>Check for Win:</b><br>
+- Updates the data array to keep track of who played where. <br>
+<b>Check for Win:</b>
 <img width="427" height="118" alt="Screen Shot 2025-07-19 at 8 20 22 AM" src="https://github.com/user-attachments/assets/277c9674-452d-4fcc-a5be-92e621a4b43f" />
