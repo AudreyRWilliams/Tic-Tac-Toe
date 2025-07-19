@@ -29,9 +29,8 @@ I'm directly modifying DOM elements with .innerHTML via refs which probably isn'
 Game Flow<br>
 <b>On Click:</b><br>
 <img width="481" height="293" alt="Screen Shot 2025-07-19 at 8 14 11 AM" src="https://github.com/user-attachments/assets/869d0301-cac1-4042-b37c-5c90dd065db1" />
-
-
 - Every time a box is clicked, it adds either X or O based on count.<br>
 - Updates the data array to keep track of who played where. <br>
+
 <b>Check for Win:</b>
 <img width="427" height="118" alt="Screen Shot 2025-07-19 at 8 20 22 AM" src="https://github.com/user-attachments/assets/277c9674-452d-4fcc-a5be-92e621a4b43f" />
