@@ -26,8 +26,8 @@ let box1 = useRef(null);<br>
 ... <br>
 I'm directly modifying DOM elements with .innerHTML via refs which probably isn't the most effective way to do this.
 <hr>
-Game Flow
-<b>On Click:</b>
+Game Flow<br>
+<b>On Click:</b><br>
 const toggle = (e, num) => {
   if (lock) return;
   if (count % 2) {
@@ -40,5 +40,6 @@ const toggle = (e, num) => {
   setCount(count + 1);
   checkWin();
 };
-- Every time a box is clicked, it adds either X or O based on count.
+
+- Every time a box is clicked, it adds either X or O based on count.<br>
 - Updates the data array to keep track of who played where.
