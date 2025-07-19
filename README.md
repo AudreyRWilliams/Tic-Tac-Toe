@@ -35,7 +35,10 @@ Game Flow<br>
 <b>Check for Win:</b><br>
 <img width="427" height="118" alt="Screen Shot 2025-07-19 at 8 20 22 AM" src="https://github.com/user-attachments/assets/277c9674-452d-4fcc-a5be-92e621a4b43f" />
 <br>
-<b>Win Logic:</b>
+<b>Win Logic:</b><br>
+<img width="636" height="113" alt="Screen Shot 2025-07-19 at 8 35 20 AM" src="https://github.com/user-attachments/assets/64b184e8-3084-4d09-a218-7f006e34faa8" />
+<img width="633" height="71" alt="Screen Shot 2025-07-19 at 8 37 51 AM" src="https://github.com/user-attachments/assets/f33513e8-b6a3-4ad3-8e5c-d752b825b0aa" />
+
 <br>
 <b>Reset Logic:</b><br>
 <img width="433" height="157" alt="Screen Shot 2025-07-19 at 8 32 40 AM" src="https://github.com/user-attachments/assets/a9049a89-efad-4d9b-a2f9-33a67792300e" />
