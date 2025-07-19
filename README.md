@@ -25,3 +25,20 @@ let titleRef = useRef(null);<br>
 let box1 = useRef(null);<br>
 ... <br>
 I'm directly modifying DOM elements with .innerHTML via refs which probably isn't the most effective way to do this.
+<hr>
+Game Flow
+<b>On Click:</b>
+const toggle = (e, num) => {
+  if (lock) return;
+  if (count % 2) {
+    e.target.innerHTML = `<img src='${circle_icon}'>`;
+    data[num] = "o";
+  } else {
+    e.target.innerHTML = `<img src='${ex_icon}'>`;
+    data[num] = "x";
+  }
+  setCount(count + 1);
+  checkWin();
+};
+- Every time a box is clicked, it adds either X or O based on count.
+- Updates the data array to keep track of who played where.
