@@ -23,5 +23,5 @@ let [lock, setLock] = useState(false);<br>
 2. <b>Refs for DOM Access</b><br>
 let titleRef = useRef(null);<br>
 let box1 = useRef(null);<br>
-...
+... <br>
 I'm directly modifying DOM elements with .innerHTML via refs which probably isn't the most effective way to do this.
