@@ -16,14 +16,11 @@ https://audreyrwilliams.github.io/Tic-Tac-Toe/
 <hr>
 Explanation of Key Sections<br>
 1. States <br>
-
 let [count, setCount] = useState(0);<br>
 let [lock, setLock] = useState(false);<br>
 - count keeps track of number of turns (used to switch between X and O).
 - lock disables further moves after a win.
-
 2. Refs for DOM Access<br>
-
 let titleRef = useRef(null);<br>
 let box1 = useRef(null);<br>
 ...
