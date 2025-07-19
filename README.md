@@ -28,18 +28,8 @@ I'm directly modifying DOM elements with .innerHTML via refs which probably isn'
 <hr>
 Game Flow<br>
 <b>On Click:</b><br>
-const toggle = (e, num) => {
-  if (lock) return;
-  if (count % 2) {
-    e.target.innerHTML = `<img src='${circle_icon}'>`;
-    data[num] = "o";
-  } else {
-    e.target.innerHTML = `<img src='${ex_icon}'>`;
-    data[num] = "x";
-  }
-  setCount(count + 1);
-  checkWin();
-};
+<img width="481" height="293" alt="Screen Shot 2025-07-19 at 8 14 11 AM" src="https://github.com/user-attachments/assets/869d0301-cac1-4042-b37c-5c90dd065db1" />
+
 
 - Every time a box is clicked, it adds either X or O based on count.<br>
 - Updates the data array to keep track of who played where.
