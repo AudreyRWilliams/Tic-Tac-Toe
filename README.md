@@ -14,17 +14,17 @@ https://audreyrwilliams.github.io/Tic-Tac-Toe/
 4. The 'TicTacToe.jsx' file is where the core of the game functionality was created.  A one dimensional 'data' array was created to keep track
    of the selections as well as the winner.  Another array was created for the 'Reset' functionality that makes each box blank.
 <hr>
-Explanation of Key Sections
-1. State & Refs
+Explanation of Key Sections<br>
+1. States <br>
 
-let [count, setCount] = useState(0);
-let [lock, setLock] = useState(false);
+let [count, setCount] = useState(0);<br>
+let [lock, setLock] = useState(false);<br>
 - count keeps track of number of turns (used to switch between X and O).
 - lock disables further moves after a win.
 
-2. Refs for DOM Access
+2. Refs for DOM Access<br>
 
-let titleRef = useRef(null);
-let box1 = useRef(null);
+let titleRef = useRef(null);<br>
+let box1 = useRef(null);<br>
 ...
 I'm directly modifying DOM elements with .innerHTML via refs which probably isn't the most effective way to do this.
